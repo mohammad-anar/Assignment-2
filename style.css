@@ -309,7 +309,7 @@ button {
     align-items: center;
     justify-content: space-around;
     gap: 100px;
-    padding: 120px 10%;
+    padding: 120px 10% 0;
 }
 
 .play-game-container .left,
@@ -349,4 +349,33 @@ button {
 }
 .play-game-container .right {
     padding-left: 50px;
+}
+
+
+/* games gallery starts here  */
+.games-gallery-container .gallery {
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+    background-color: #fff;
+    padding: 5px;
+    flex-basis: 18%;
+    margin-bottom: 30px;
+
+}
+.games-gallery-container .gallery img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.games-gallery-container .gallery h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.games-gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 10%;
+    flex-wrap: wrap;
 }

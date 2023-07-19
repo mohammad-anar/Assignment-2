@@ -23,8 +23,16 @@ html {
 }
 
 body {
-    background: rgba(209, 180, 102, .2);
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     font-family: 'Work Sans', sans-serif; 
+}
+button{
+    background: var(--primary);
+    border: none;
+    border-radius: 48px;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 40px;
 }
 
 .nav-container {
@@ -79,3 +87,57 @@ body {
 .nav-btn i {
     margin-left: 15px;
 }
+
+/* banner section added  */
+.banner-container {
+    height: 100vh;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-right,
+.banner-left {
+    flex-basis: 50%;
+}
+.banner-left h4 {
+    font-size: 45px;
+    color: #0B0223;
+    font-weight: 600;
+}
+.banner-left h1 {
+    font-size: 95px;
+    font-weight: 800;
+    font-size: 72px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.banner-left li {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 15px;
+    list-style: none;
+}
+.banner-left li i {
+    margin-right: 10px;
+    border-radius: 50%;    
+}
+.banner-left .btn {
+    margin-top: 40px;
+    margin-right: 24px;
+}
+.banner-left .btn2{
+    background: #4EC5F7;
+}
+
+
+.banner-right img {
+    width: 100%;
+}
+/* .gammer section start here  */
